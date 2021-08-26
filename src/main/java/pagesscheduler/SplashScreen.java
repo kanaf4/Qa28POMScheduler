@@ -16,4 +16,8 @@ public class SplashScreen  extends BaseScreen{
     public String getCurrentVersion(){
         return versionTextView.getText();
     }
+
+    public LoginScreen checkVersion(){
+
+    }
 }
