@@ -8,6 +8,12 @@ public class WizardScreen extends BaseScreen{
     public WizardScreen(AppiumDriver<MobileElement> driver) {
         super(driver);
     }
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//*[@resource-id = 'com.example.svetlana.scheduler:id/wizard_settings_skip']")
     MobileElement skipButton;
+    public HomeScreen skipWizard(){
+        if(isDisplayedWhithoutExeption(skipButton)) {
+            skipButton.click();
+        }
+        return new HomeScreen(driver);
+    }
 }

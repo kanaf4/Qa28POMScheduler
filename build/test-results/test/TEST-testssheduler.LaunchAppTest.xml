@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="testssheduler.LaunchAppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-26T18:03:55" hostname="LAPTOP-VN4HCI1U" time="0.779">
-  <properties/>
-  <testcase name="launchtest" classname="testssheduler.LaunchAppTest" time="0.779"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Aug 26, 2021 9:03:55 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-</testsuite>
